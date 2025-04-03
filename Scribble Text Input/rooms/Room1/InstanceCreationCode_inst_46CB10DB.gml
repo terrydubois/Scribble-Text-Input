@@ -1,0 +1,1 @@
+effectsTags = "[shake]";

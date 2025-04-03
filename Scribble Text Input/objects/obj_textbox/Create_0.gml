@@ -4,6 +4,9 @@
 #macro HOLDDOWNKEYTIMER1 0.4
 #macro HOLDDOWNKEYTIMER2 0.02
 
+// effects (to add effects, use effectsTags variable, currently set as Creation Code in Room editor)
+scribble_anim_shake(5, 0.5);
+
 // dimensions and coordinates
 textboxWidth = 300;
 textboxHeight = 40;

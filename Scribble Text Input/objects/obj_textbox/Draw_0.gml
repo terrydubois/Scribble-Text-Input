@@ -1,5 +1,6 @@
 /// Feather ignore all
-    
+
+
 draw_set_alpha(1);
 
 var _strLen = string_length(str);
@@ -34,7 +35,7 @@ var _textXPadding = 4;
 var _textTags = $"[fa_left][fa_middle][scale,2][fnt_textbox][d#{color_text}]";
 var _textX = _textboxX1 + xOffset + _textXPadding;
 var _textY = _textboxYCenter;
-text = scribble($"{_textTags}{str}");
+text = scribble($"{_textTags}{effectsTags}{str}");
 text.draw(_textX, _textboxYCenter);
 
 // moving cursor with mouse click
