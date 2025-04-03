@@ -1,9 +1,4 @@
-color_text = c_white;
-color_bg = c_dkgray;
-color_border = c_white;
-color_cursor = c_ltgray;
-color_highlight = make_color_rgb(74, 145, 240);
-    
+
 // focus-specific behaviors
 if (textboxFocused) {
     
@@ -140,6 +135,3 @@ if (textboxFocused) {
     cursorPos = clamp(cursorPos, 0, string_length(str));
     highlightPos = clamp(highlightPos, 0, string_length(str));
 }
-    
-// restart
-if (keyboard_check(vk_control) && keyboard_check_released(ord("R"))) room_restart();

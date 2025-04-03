@@ -30,8 +30,8 @@ text = scribble($"[fa_left][fa_middle][c_white][fnt_textbox]{str}");
 color_text = c_white;
 color_bg = c_dkgray;
 color_border = c_white;
-color_cursor = c_dkgray;
-color_highlight = c_blue;
+color_cursor = c_ltgray;
+color_highlight = make_color_rgb(74, 145, 240);
 
 // vars and timer for moving cursor left
 canMoveCursorL = true;
